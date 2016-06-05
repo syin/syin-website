@@ -109,6 +109,14 @@ h2 {
     padding: 1rem 0;
 }
 
+.about h3 {
+    // font-family: $title_font;
+    // font-weight: 300;
+    // text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
 .entry-img {
     box-shadow: 0 0 5px #ccc;
     width: 30rem;
@@ -125,7 +133,7 @@ h2 {
     width: 50%;
 }
 
-.entry-title {
+.entry-title, .entry-title a {
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1rem 0 0 0;

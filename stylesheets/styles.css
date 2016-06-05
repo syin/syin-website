@@ -120,6 +120,12 @@ h2 {
 }
 
 /* line 112, styles.scss */
+.about h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* line 120, styles.scss */
 .entry-img {
   box-shadow: 0 0 5px #ccc;
   width: 30rem;
@@ -129,28 +135,28 @@ h2 {
   margin-bottom: 2rem;
 }
 
-/* line 122, styles.scss */
+/* line 130, styles.scss */
 .entry {
   padding-bottom: 1rem;
   display: inline-block;
   width: 50%;
 }
 
-/* line 128, styles.scss */
-.entry-title {
+/* line 136, styles.scss */
+.entry-title, .entry-title a {
   font-weight: bold;
   font-size: 1.5rem;
   padding: 1rem 0 0 0;
 }
 
 @media (max-width: 1080px) {
-  /* line 136, styles.scss */
+  /* line 144, styles.scss */
   .entry, .entry-img {
     display: block;
     width: 100%;
   }
 
-  /* line 141, styles.scss */
+  /* line 149, styles.scss */
   aside {
     height: auto;
     width: 100%;
@@ -162,7 +168,7 @@ h2 {
     box-sizing: border-box;
   }
 
-  /* line 152, styles.scss */
+  /* line 160, styles.scss */
   .body_container {
     margin-left: 0;
     padding: 0 2rem;
