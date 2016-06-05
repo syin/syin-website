@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700);
+@font-face {
+  font-family: BenchNine;
+  src: url("../graphics/fonts/BenchNine-Light.otf");
+  font-weight: 300;
+}
+/* line 17, styles.scss */
+body {
+  margin: 0;
+  color: #333333;
+  font-family: "PT Serif", serif;
+}
+
+/* line 22, styles.scss */
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 26, styles.scss */
+p, ul, li {
+  font-size: 1.3rem;
+}
+
+/* line 29, styles.scss */
+ul {
+  overflow: hidden;
+  padding-left: 1.5rem;
+}
+
+/* line 33, styles.scss */
+a {
+  color: #429398;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* line 39, styles.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 42, styles.scss */
+strong {
+  font-weight: 700;
+}
+
+/* line 47, styles.scss */
+aside {
+  width: 21rem;
+  height: 100%;
+  float: left;
+  position: fixed;
+  background-color: #429398;
+}
+
+/* line 56, styles.scss */
+.body_container {
+  margin-left: 21rem;
+  padding: 0 2rem;
+}
+
+/* line 61, styles.scss */
+.body_container_inner {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+/* line 68, styles.scss */
+.emoji {
+  font-size: 2.5rem;
+  vertical-align: middle;
+}
+
+/* line 73, styles.scss */
+aside ul {
+  list-style: none;
+}
+
+/* line 77, styles.scss */
+aside li:before {
+  content: "+  ";
+  color: #fff;
+}
+
+/* line 81, styles.scss */
+aside a:link, aside a:visited, aside a:active {
+  color: #fcfaf4;
+}
+
+/* line 85, styles.scss */
+aside a:hover {
+  color: #fff;
+}
+
+/* line 89, styles.scss */
+section {
+  padding: 3rem 0;
+  border-bottom: 2px solid #ccc;
+}
+
+/* line 94, styles.scss */
+.site-title {
+  color: #fff;
+  font-family: BenchNine;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 4rem;
+  vertical-align: middle;
+  padding: 2rem;
+}
+
+/* line 104, styles.scss */
+h2 {
+  font-family: BenchNine;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+/* line 112, styles.scss */
+.entry-img {
+  box-shadow: 0 0 5px #ccc;
+  width: 30rem;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  margin-bottom: 2rem;
+}
+
+/* line 122, styles.scss */
+.entry {
+  padding-bottom: 1rem;
+  display: inline-block;
+  width: 50%;
+}
+
+/* line 128, styles.scss */
+.entry-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem 0 0 0;
+}
+
+@media (max-width: 1080px) {
+  /* line 136, styles.scss */
+  .entry, .entry-img {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 141, styles.scss */
+  aside {
+    height: auto;
+    width: 100%;
+    float: none;
+    position: relative;
+    background-color: #429398;
+    padding: 1rem 2rem;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* line 152, styles.scss */
+  .body_container {
+    margin-left: 0;
+    padding: 0 2rem;
+  }
+}
