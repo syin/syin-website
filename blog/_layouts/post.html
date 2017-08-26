@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+    
+    <h2>{{ page.title }}</h2>
+    <span class="post-date">{{ page.date | date: '%B %-d, %Y' }}</span>
+
+    <section>
+        {{ content }}
+    </section>
+
+</body>
+</html>
