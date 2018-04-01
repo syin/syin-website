@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-__Current:__ Software Engineer at [Clarius Mobile Health](https://www.clarius.me/)
+Hi, I'm Shirley, and I'm a __Software Engineer__ at [Clarius Mobile Health](https://www.clarius.me/).
 
 ## education
 
@@ -15,3 +15,5 @@ __Bachelor of Science:__ University of British Columbia, _Combined Honours Compu
 ## contact
 
 __Email:__ [contact@shirleyy.in](mailto:contact@shirleyy.in)  
+__Twitter:__ [@biowitches](https://twitter.com/biowitches)  
+__Github:__ [syin](https://github.com/syin/)
