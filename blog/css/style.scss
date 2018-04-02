@@ -1,12 +1,12 @@
 ---
 ---
 
-$crimson: #ca0d2d;
-$red: #de1a3b;
+$accent: #B76E79;
+$accent2: #914853;
 $darkgrey: #343434;
 $darkergrey: #222;
 $white: #fff;
-$translucent_crimson: rgba(202,13,45,0.2);
+$translucent_accent: rgba(183,110,121,0.3);
 
 body {
     font-family: "Roboto", sans-serif;
@@ -19,17 +19,17 @@ body {
 }
 
 a {
-    color: $crimson;
+    color: $accent;
 
 }
 a:hover {
-    color: $red;
+    color: $accent2;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: 700;
-    color: $crimson;
+    color: $accent;
 
     a {
         text-decoration: none;
@@ -73,12 +73,12 @@ h2:before {
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 pre {
     padding: 1em;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Inconsolata", monospace;
     font-weight: 400;
     background-color: $darkgrey;
     color: $white;
@@ -90,11 +90,11 @@ blockquote {
     padding: 0 0.5em;
     font-size: 1.4em;
     position: relative;
-    border-top: 1px solid $crimson;
-    border-bottom: 1px solid $crimson;
+    border-top: 1px solid $accent;
+    border-bottom: 1px solid $accent;
 
-    :before {
-        color: $translucent_crimson;
+    p:before {
+        color: $translucent_accent;
         font-size: 14em;
         content: "\201C";
         position: absolute;
@@ -112,11 +112,12 @@ span.post-date {
     display: block;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
-    font-family: "Roboto Mono", monospace;
+    color: $accent2;
+    font-family: "Inconsolata", monospace;
 }
 
 article {
-    border-bottom: 1px solid $crimson;
+    border-bottom: 1px solid $accent;
 }
 
 article:last-child {
