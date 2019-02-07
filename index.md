@@ -1,8 +1,21 @@
 ---
-layout: page
-title: projects
-permalink: /projects/
+layout: home
+permalink: /
 ---
+
+## about
+
+### work history
+
+* __Software Developer__ at [Copperleaf](https://www.copperleaf.com/) (Oct 2018 - present).
+* __Software Engineer__ at [Clarius Mobile Health](https://www.clarius.com/) (Sep 2016 - Sep 2018).
+
+### education
+
+* __Master of Science:__ Simon Fraser University, _Molecular Biology &amp; Biochemistry_ (2014-2016)
+* __Bachelor of Science:__ University of British Columbia, _Computer Science &amp; Microbiology_ (2009-2014)
+
+## projects
 
 <div class="entry">
     <h3 class="entry-title"><a href="http://bcfires.shirleyy.in/">BC Fires</a></h3>
@@ -26,8 +39,14 @@ permalink: /projects/
 <div class="entry">
     <h3 class="entry-title"><a href="/polyrhythms/">polyrhythms</a></h3>
     <ul>
-        <li>A simple webapp for practicing polyrhythms on piano</li>
+        <li>A simple web application for practicing polyrhythms on piano</li>
         <li><strong>Technologies used:</strong> HTML, CSS, JavaScript/jQuery</li>
     </ul>
 </div>
 <a href="/polyrhythms/"><img class="entry-img" src="/images/polyrhythms.png" alt="Screenshot of polyrhythms"></a>
+
+## contact
+
+__Email:__ [contact@shirleyyin.com](mailto:contact@shirleyyin.com)  
+__Twitter:__ [@biowitches](https://twitter.com/biowitches)  
+__Github:__ [syin](https://github.com/syin/)
