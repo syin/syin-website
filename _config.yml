@@ -12,4 +12,5 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 sass:
+  sass_dir: css
   style: compressed

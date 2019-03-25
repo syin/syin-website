@@ -3,11 +3,12 @@
 
 {% include head.html %}
 
-<body>
+<body class="{{ page.customclass }}">
     {% include header.html %}
     
     <h2>{{ page.title }}</h2>
     <span class="post-date">{{ page.date | date: '%B %-d, %Y' }}</span>
+    <!-- <span class="post-categories">Categories: {{ page.categories }}</span> -->
 
     <section>
         {{ content }}

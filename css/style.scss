@@ -3,10 +3,13 @@
 
 $accent: #8b3e4e;
 $accent2: scale-color($accent, $lightness: 25%, $saturation: -40%);
+$medgrey: #565656;
 $darkgrey: #343434;
 $darkergrey: #222;
 $white: #fff;
-$translucent_accent: rgba(183,110,121,0.3);
+$translucent_accent: rgba(183,110,121,0.2);
+
+@import "_bookreviews";
 
 body {
     font-family: "IBM Plex Mono", monospace;
@@ -67,11 +70,20 @@ h2 {
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0;
+
+    &:before {
+        content: "# ";
+    }
 }
 
-h2:before {
-    content: "# ";
+h3 {
+    font-size: 1.5em;
+
+    &:before {
+        content: "## ";
+    }
 }
+
 
 p {
     line-height: 1.8;
@@ -102,6 +114,7 @@ blockquote {
         left: -0.1em;
         top: -0.5em;
         font-family: "Times New Roman", serif;
+        z-index: -100;
     }
 }
 
@@ -109,12 +122,16 @@ section img {
     width: 100%;
 }
 
-span.post-date {
+span.post-date, span.post-categories {
     display: block;
     margin-top: 0.7em;
     margin-bottom: 0.7em;
     color: $accent;
     font-family: "Inconsolata", monospace;
+}
+
+span.post-categories {
+    font-style: italic;
 }
 
 article {
@@ -125,4 +142,18 @@ article {
 article:last-child {
     border: 0;
     margin-bottom: 4em;
+}
+
+.blogfeed {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.blogfeed--title {
+    font-weight: bold;
+}
+
+.blogfeed--date {
+    font-style: italic;
 }

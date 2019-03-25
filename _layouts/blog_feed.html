@@ -4,16 +4,17 @@
 <body>
     {% include header.html %}
 
-    <section>
-        {% for post in site.posts %}
-        <article>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <span class="post-date">{{ post.date | date: '%B %-d, %Y' }}</span>
-            {{ post.excerpt }}
+    <h2>Blog</h2>
 
-            <a href="{{ post.url }}">Read more &rarr;</a>
-        </article>
-        {% endfor %}    
+    <section>
+        <ul class="blogfeed">
+        {% for post in site.posts %}
+        <li>
+            <a class="blogfeed--title" href="{{ post.url }}">{{ post.title }}</a> - 
+            <span class="blogfeed--date">{{ post.date | date: '%B %-d, %Y' }}</span>
+        </li>
+        {% endfor %}
+        </ul>
     </section>
 </body>
 </html>
