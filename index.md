@@ -18,7 +18,7 @@ permalink: /
 ## projects
 
 <div class="entry">
-    <h3 class="entry-title"><a href="http://bcfires.shirleyy.in/">BC Fires</a></h3>
+    <h3 class="entry-title"><a href="https://github.com/syin/bcfires">BC Fires</a></h3>
     <ul>
         <li>Created with <a href="https://github.com/justin0022">Justin Lee</a></li>
         <li>Interactive visualization of BC wildfires using the <a href="https://catalogue.data.gov.bc.ca/dataset/fire-perimeters-historical">Fire Perimeters</a> dataset</li>
@@ -43,7 +43,7 @@ permalink: /
         <li><strong>Technologies used:</strong> HTML, CSS, JavaScript/jQuery</li>
     </ul>
 </div>
-<a href="/polyrhythms/"><img class="entry-img" src="/images/polyrhythms.png" alt="Screenshot of polyrhythms"></a>
+<a href="https://github.com/syin/polyrhythms"><img class="entry-img" src="/images/polyrhythms.png" alt="Screenshot of polyrhythms"></a>
 
 ## contact
 
