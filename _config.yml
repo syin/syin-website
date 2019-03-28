@@ -1,0 +1,16 @@
+# Site settings
+title: shirley yin
+email: contact@shirleyyin.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: biowitches
+github_username: syin
+permalink: /blog/:title/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+sass:
+  sass_dir: css
+  style: compressed

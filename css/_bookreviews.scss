@@ -1,0 +1,112 @@
+.book-review {
+    overflow-x: hidden;
+
+    h2, h3, .post-date {
+        color: $medgrey;
+    }
+
+    blockquote {
+        font-size: 1em;
+    }
+
+    .book-review-wrapper {
+        display: flex;  
+    }
+
+    .book-cover {
+        width: 30%;
+        position: relative;
+        img {
+            width: 90%;
+        }
+
+        .rect, .circle, .triangle {
+            position: absolute;
+            z-index: -1;   
+        }
+    }
+
+    .book-content {
+        width: 70%;
+
+    }
+
+    .art-left .book-content {
+        padding-left: 1em;
+    }
+    .art-right {
+        .book-content {
+           padding-right: 1em;
+        }
+        .book-cover {
+            order: 2;
+        }
+    }
+
+    .version-control .book-cover {
+        .rect {
+            top: 100px;
+            left: 50px;
+
+            width: 300px;
+            height: 400px;
+            background: rgba(255,0,0, 0.3);
+        }
+
+        .circle {
+            top: -50px;
+            left: 150px;
+
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: rgba(126,212,255, 0.5);
+        }
+    }
+
+    .creative-selection .book-cover {
+        .triangle {
+            top: -100px;
+            right: 100px;
+
+            width: 0;
+            height: 0;
+            border-left: 180px solid transparent;
+            border-right: 180px solid transparent;
+            border-bottom: 360px solid rgba(126,212,255, 0.5);
+            transform: rotate(-5deg);
+        }
+
+        .rect {
+            top: 100px;
+            right: -100px;
+
+            width: 350px;
+            height: 450px;
+            background: rgba(255,0,0,0.5);
+            transform: rotate(10deg);
+        }
+    }
+
+    .bad-blood .book-cover {
+        .circle {
+            top: 150px;
+            right: -100px;
+
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            background: rgba(255,0,0,0.5);
+        }
+
+        .rect {
+            top: -100px;
+            left: -200px;
+
+            width: 350px;
+            height: 450px;
+            background: rgba(126,212,255, 0.5);
+            transform: rotate(10deg);
+        }
+    }
+}

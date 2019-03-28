@@ -1,0 +1,159 @@
+---
+---
+
+$accent: #8b3e4e;
+$accent2: scale-color($accent, $lightness: 25%, $saturation: -40%);
+$medgrey: #565656;
+$darkgrey: #343434;
+$darkergrey: #222;
+$white: #fff;
+$translucent_accent: rgba(183,110,121,0.2);
+
+@import "_bookreviews";
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    color: $accent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: $accent2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: $accent;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+
+    h1 {
+        font-weight: 400;
+        font-size: 3em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    nav {
+        a {
+            text-decoration: none;
+        }
+        a:before {
+            content: "\00B7";
+            padding: 0.3em;
+        }
+        a:first-child:before {
+            content: "";
+        }
+    }
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 0;
+
+    &:before {
+        content: "# ";
+    }
+}
+
+h3 {
+    font-size: 1.5em;
+
+    &:before {
+        content: "## ";
+    }
+}
+
+
+p {
+    line-height: 1.8;
+}
+
+pre {
+    padding: 1em;
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    background-color: $darkgrey;
+    color: $white;
+    box-shadow: inset 0px 0px 20px 10px $darkergrey;
+}
+
+blockquote {
+    margin: 2em 0;
+    padding: 0 0.5em;
+    font-size: 1.4em;
+    position: relative;
+    border-top: 1px solid $accent;
+    border-bottom: 1px solid $accent;
+
+    p:before {
+        color: $translucent_accent;
+        font-size: 14em;
+        content: "\201C";
+        position: absolute;
+        left: -0.1em;
+        top: -0.5em;
+        font-family: "Times New Roman", serif;
+        z-index: -100;
+    }
+}
+
+section img {
+    width: 100%;
+}
+
+span.post-date, span.post-categories {
+    display: block;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    color: $accent;
+    font-family: "Inconsolata", monospace;
+}
+
+span.post-categories {
+    font-style: italic;
+}
+
+article {
+    border-bottom: 1px solid $accent;
+    margin-bottom: 1em;
+}
+
+article:last-child {
+    border: 0;
+    margin-bottom: 4em;
+}
+
+.blogfeed {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.blogfeed--title {
+    font-weight: bold;
+}
+
+.blogfeed--date {
+    font-style: italic;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    {% include header.html %}
+
+    <h2>Blog</h2>
+
+    <section>
+        <ul class="blogfeed">
+        {% for post in site.posts %}
+        <li>
+            <a class="blogfeed--title" href="{{ post.url }}">{{ post.title }}</a> - 
+            <span class="blogfeed--date">{{ post.date | date: '%B %-d, %Y' }}</span>
+        </li>
+        {% endfor %}
+        </ul>
+    </section>
+</body>
+</html>
