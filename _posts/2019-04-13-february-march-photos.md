@@ -60,13 +60,15 @@ Note to self: stop writing custom CSS for every single post if you want this blo
     </a>
 </div>
 <div class="photo_wrapper">
-    <div class="photoset quad">
+    <div class="photoset">
         <a class="photo" href="/images/posts/2019-03-31-photos/kelowna-lake.jpg">
             <img src="/images/posts/2019-03-31-photos/kelowna-lake_resized.jpg" alt="">
         </a>
         <a class="photo" href="/images/posts/2019-03-31-photos/kelowna-anna.jpg">
             <img src="/images/posts/2019-03-31-photos/kelowna-anna_resized.jpg" alt="">
         </a>
+    </div>
+    <div class="photoset">
         <a class="photo" href="/images/posts/2019-03-31-photos/kelowna-franco.jpg">
             <img src="/images/posts/2019-03-31-photos/kelowna-franco_resized.jpg" alt="">
         </a>
