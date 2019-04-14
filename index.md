@@ -18,14 +18,14 @@ permalink: /
 ## projects
 
 <div class="entry">
-    <h3 class="entry-title"><a href="https://github.com/syin/bcfires">BC Fires</a></h3>
+    <h3 class="entry-title"><a href="http://bcfires.shirleyyin.com">BC Fires</a></h3>
     <ul>
         <li>Created with <a href="https://github.com/justin0022">Justin Lee</a></li>
         <li>Interactive visualization of BC wildfires using the <a href="https://catalogue.data.gov.bc.ca/dataset/fire-perimeters-historical">Fire Perimeters</a> dataset</li>
         <li><strong>Technologies used:</strong> d3.js, JavaScript, Python, HTML/CSS</li>
     </ul>
 </div>
-<a href="https://github.com/syin/bcfires"><img class="entry-img" src="/images/bcfires.png" alt="Screenshot of bcfires"></a>
+<a href="http://bcfires.shirleyyin.com"><img class="entry-img" src="/images/bcfires.png" alt="Screenshot of bcfires"></a>
 
 <div class="entry">
     <h3 class="entry-title"><a href="http://link.landfood.ubc.ca/courseTree/">CourseTree</a></h3>
