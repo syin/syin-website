@@ -1,0 +1,164 @@
+.photo-post {
+    
+    @media (min-width: 1280px) {
+        .photoset {
+            display: flex;
+        }
+
+        .collage {
+            display: block;
+            position: relative;
+            margin: 5rem 0;
+
+            .main {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            .side {
+                position: absolute;
+                width: 40%;
+            }
+
+            .side.left {
+                left: 0;
+            }
+
+            .side.right {
+                right: 0;
+            }
+
+            & + .caption {
+                margin-bottom: 5rem;
+            }
+
+            &.custom-car {
+                height: 40rem;
+
+                .side {
+                    top: 24rem;
+                }
+            }
+
+            &.custom-museum {
+                height: 60rem;
+
+                .side {
+                    top: 30rem;
+                }
+            }
+        }
+
+        .custom-bookshop {
+            img {
+                height: 31rem;
+            }
+        }
+
+        .custom-stores {
+            height: 60rem;
+
+            .photo {
+                position: absolute;
+                width: 70%;
+            }
+            .left {
+                left: -4rem;
+            }
+            .right {
+                right: -4rem;
+                top: 30rem;
+            }
+        }
+
+        .custom-skates1 {
+            height: 43rem;
+
+            .photo {
+                position: absolute;
+            }
+            .left {
+                width: 40%;
+                left: 7rem;
+             }
+            .right {
+                width: 35%;
+                right: 8rem;
+                top: 8rem;
+            }
+        }
+
+        .custom-skates2 {
+            height: 46rem;
+
+            .photo {
+                position: absolute;
+                width: 70%;
+            }
+            .left {
+                left: -4rem;
+                top: 26rem;
+            }
+            .right {
+                right: -4rem;
+            }
+        }
+
+        .custom-goose {
+            .photo {
+                width: 33.33333333333333%;
+            }
+        }
+
+        .custom-table {
+            height: 68rem;
+
+            .photo {
+                position: absolute;
+            }
+            .left {
+                width: 78%;
+                left: -4rem;
+            }
+            .right {
+                width: 40%;
+                top: 34rem;
+                right: -4rem;
+            }
+        }
+
+        .custom-flowers {
+            height: 57rem;
+
+            .photo {
+                position: absolute;
+            }
+            .left {
+                width: 70%;
+                left: -4rem;
+            }
+            .right {
+                width: 50%;
+                top: 20rem;
+                right: 0rem;
+            }
+        }
+    }
+
+    .photo {
+        display: block;
+        margin: 0;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+
+    .caption {
+        display: block;
+        text-align: center;
+        font-style: italic;
+    }
+
+}
