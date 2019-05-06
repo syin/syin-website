@@ -14,7 +14,7 @@ $translucent_accent: rgba(183,110,121,0.2);
 
 body {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5;
     width: 90%;
@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 
     h1 {
         font-weight: 400;
-        font-size: 3em;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
+        font-size: 4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     nav {
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
         }
         a:before {
             content: "\00B7";
-            padding: 0.3em;
+            padding: 0.3rem;
         }
         a:first-child:before {
             content: "";
@@ -68,9 +68,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 2em;
-    margin-top: 1em;
+    font-size: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 0;
+    word-wrap: break-word;
 
     &:before {
         content: "# ";
@@ -78,7 +79,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2rem;
 
     &:before {
         content: "## ";
@@ -125,8 +126,8 @@ section img {
 
 span.post-date, span.post-categories {
     display: block;
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
     color: $accent;
     font-family: "Inconsolata", monospace;
 }
@@ -137,17 +138,17 @@ span.post-categories {
 
 article {
     border-bottom: 1px solid $accent;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 article:last-child {
     border: 0;
-    margin-bottom: 4em;
+    margin-bottom: 4rem;
 }
 
 .blogfeed {
     list-style: none;
-    margin: 1em 0;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -157,4 +158,39 @@ article:last-child {
 
 .blogfeed--date {
     font-style: italic;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 1.1rem;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        nav a:before, nav a:first-child:before {
+            content: "\003e";
+        }
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+
+        &:before {
+            content: "# ";
+        }
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
 }
