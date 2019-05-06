@@ -109,4 +109,23 @@
             transform: rotate(10deg);
         }
     }
+
+    @media (max-width: 979px) {
+        .book-review-wrapper {
+            flex-direction: column;
+        }
+        .book-cover {
+            align-self: center;
+            width: 60%;
+            max-width: 20rem;
+        }
+        .book-content {
+            width: 100%;
+        }
+        .art-right {
+            .book-cover {
+                order: 0;
+            }
+        }
+    }
 }
