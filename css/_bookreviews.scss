@@ -110,14 +110,14 @@
         }
     }
 
-    @media (max-width: 1280px) {
+    @media (max-width: 979px) {
         .book-review-wrapper {
             flex-direction: column;
         }
         .book-cover {
             align-self: center;
             width: 60%;
-            max-width: 20rem;
+            max-width: 15rem;
         }
         .book-content {
             width: 100%;
@@ -125,6 +125,76 @@
         .art-right {
             .book-cover {
                 order: 0;
+            }
+        }
+        .art-left .book-content {
+            padding-left: 0;
+        }
+
+        .version-control .book-cover {
+            .rect {
+                top: 8rem;
+                left: 5rem;
+
+                width: 12rem;
+                height: 16rem;
+                background: rgba(255,0,0, 0.3);
+            }
+
+            .circle {
+                top: -5rem;
+                left: 4rem;
+
+                width: 18rem;
+                height: 18rem;
+                border-radius: 50%;
+                background: rgba(126,212,255, 0.5);
+            }
+        }
+
+        .creative-selection .book-cover {
+            .triangle {
+                top: -5rem;
+                right: -3rem;
+
+                width: 0;
+                height: 0;
+                border-left: 6rem solid transparent;
+                border-right: 6rem solid transparent;
+                border-bottom: 12rem solid rgba(126,212,255, 0.5);
+                transform: rotate(-5deg);
+            }
+
+            .rect {
+                top: 5rem;
+                right: -5rem;
+
+                width: 10rem;
+                height: 15rem;
+                background: rgba(255,0,0,0.5);
+                transform: rotate(10deg);
+            }
+        }
+
+        .bad-blood .book-cover {
+            .circle {
+                top: 10rem;
+                right: -5rem;
+
+                width: 15rem;
+                height: 15rem;
+                border-radius: 50%;
+                background: rgba(255,0,0,0.5);
+            }
+
+            .rect {
+                top: -3rem;
+                left: -5rem;
+
+                width: 10rem;
+                height: 15rem;
+                background: rgba(126,212,255, 0.5);
+                transform: rotate(10deg);
             }
         }
     }
