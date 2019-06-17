@@ -17,7 +17,14 @@ permalink: /
 
 ## projects
 
+<a href="http://cowboyz.shirleyyin.com"><img class="entry-img" src="/images/cowboyz.png" alt="Screenshot of cowboyz"></a>
+
 <div class="entry">
+    <h3 class="entry-title"><a href="http://cowboyz.shirleyyin.com">cowboyz</a></h3>
+    <ul>
+        <li><strong>Why?</strong> Why <em>not?</em></li>
+        <li><strong>Technologies used:</strong> Python, Flask, PIL, Riot.js</li>
+    </ul>
     <h3 class="entry-title"><a href="http://bcfires.shirleyyin.com">BC Fires</a></h3>
     <ul>
         <li>Created with <a href="https://github.com/justin0022">Justin Lee</a></li>
@@ -25,6 +32,7 @@ permalink: /
         <li><strong>Technologies used:</strong> d3.js, JavaScript, Python, HTML/CSS</li>
     </ul>
 </div>
+
 <a href="http://bcfires.shirleyyin.com"><img class="entry-img" src="/images/bcfires.png" alt="Screenshot of bcfires"></a>
 
 <div class="entry">
