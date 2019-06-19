@@ -134,6 +134,7 @@ section img.real-size {
 section .inline-images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     img {
         margin: initial;
