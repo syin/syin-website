@@ -98,6 +98,7 @@ pre {
     background-color: $darkgrey;
     color: $white;
     box-shadow: inset 0px 0px 20px 10px $darkergrey;
+    overflow-x: scroll;
 }
 
 blockquote {
@@ -122,6 +123,27 @@ blockquote {
 
 section img {
     width: 100%;
+}
+
+section img.real-size {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+section .inline-images {
+    display: flex;
+    justify-content: center;
+
+    img {
+        margin: initial;
+    }
+}
+
+.caption {
+    display: block;
+    text-align: center;
+    font-style: italic;
 }
 
 span.post-date, span.post-categories {
