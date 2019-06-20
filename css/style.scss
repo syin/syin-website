@@ -121,6 +121,10 @@ blockquote {
     }
 }
 
+section {
+    overflow-wrap: break-word;
+}
+
 section img {
     width: 100%;
 }
