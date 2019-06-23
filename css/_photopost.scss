@@ -3,6 +3,7 @@
     @media (min-width: 1280px) {
         .photoset {
             display: flex;
+            justify-content: center;
         }
 
         .collage {
@@ -55,6 +56,24 @@
             }
         }
 
+        .custom-landscape-portrait {
+            img {
+                height: 26rem;
+            }
+            .left {
+                margin-right: 1rem;
+            }
+        }
+
+        .custom-artgallery {
+            img {
+                height: 33rem;
+            }
+            .left {
+                margin-right: 1rem;
+            }
+        }
+
         .custom-stores {
             height: 60rem;
 
@@ -84,6 +103,23 @@
             .right {
                 width: 35%;
                 right: 8rem;
+                top: 8rem;
+            }
+        }
+
+        .custom-salmon {
+            height: 43rem;
+
+            .photo {
+                position: absolute;
+            }
+            .left {
+                width: 47%;
+                left: 3rem;
+             }
+            .right {
+                width: 42%;
+                right: 3rem;
                 top: 8rem;
             }
         }
@@ -159,6 +195,10 @@
         display: block;
         text-align: center;
         font-style: italic;
+    }
+
+    .gutter {
+        margin-bottom: 2rem;
     }
 
 }
