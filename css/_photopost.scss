@@ -50,6 +50,14 @@
             }
         }
 
+        .half {
+            align-items: center;
+
+            .photo {
+                width: 50%;
+            }
+        }
+
         .custom-bookshop {
             img {
                 height: 31rem;
