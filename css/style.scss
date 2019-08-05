@@ -109,7 +109,7 @@ blockquote {
     border-top: 1px solid $accent;
     border-bottom: 1px solid $accent;
 
-    p:before {
+    p:first-of-type:before {
         color: $translucent_accent;
         font-size: 14em;
         content: "\201C";
@@ -118,6 +118,10 @@ blockquote {
         top: -0.5em;
         font-family: "Times New Roman", serif;
         z-index: -100;
+    }
+
+    &.long-quote {
+        font-size: 1em;
     }
 }
 
