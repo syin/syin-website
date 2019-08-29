@@ -14,3 +14,5 @@ plugins:
 sass:
   sass_dir: css
   style: compressed
+
+future: true
