@@ -7,7 +7,8 @@ permalink: /
 
 ### work history
 
-* __Software Developer__ at [Copperleaf](https://www.copperleaf.com/) (Oct 2018 - present).
+* __Software Developer__ at [Countable Web Productions](https://countable.ca/) (Aug 2019 - present).
+* __Software Developer__ at [Copperleaf](https://www.copperleaf.com/) (Oct 2018 - Aug 2019).
 * __Software Engineer__ at [Clarius Mobile Health](https://www.clarius.com/) (Sep 2016 - Sep 2018).
 
 ### education
