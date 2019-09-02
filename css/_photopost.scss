@@ -58,6 +58,20 @@
             }
         }
 
+        .two-thirds {
+            align-items: center;
+
+            .photo.landscape {
+                width: 63%
+            }
+            .photo.portrait {
+                width: 35.5%;
+            }
+            a:first-child {
+                margin-right: 1%;
+            }
+        }
+
         .custom-bookshop {
             img {
                 height: 31rem;
