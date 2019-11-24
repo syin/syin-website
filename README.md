@@ -1,3 +1,3 @@
-# syin.github.io
+# shirleyyin.com
 
 Personal website
