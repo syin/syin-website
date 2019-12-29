@@ -1,8 +1,21 @@
+.permalink-heading:hover {
+    &:after {
+        content: ' §';
+    }
+}
+
 .book-review {
     overflow-x: hidden;
 
-    h2, h3, .post-date {
+    h2,
+    h3,
+    .post-date {
         color: $medgrey;
+
+        a,
+        a:hover {
+            color: $medgrey;
+        }
     }
 
     blockquote {
@@ -10,7 +23,7 @@
     }
 
     .book-review-wrapper {
-        display: flex;  
+        display: flex;
     }
 
     .book-cover {
@@ -20,15 +33,16 @@
             width: 90%;
         }
 
-        .rect, .circle, .triangle {
+        .rect,
+        .circle,
+        .triangle {
             position: absolute;
-            z-index: -1;   
+            z-index: -1;
         }
     }
 
     .book-content {
         width: 70%;
-
     }
 
     .art-left .book-content {
@@ -36,7 +50,7 @@
     }
     .art-right {
         .book-content {
-           padding-right: 1em;
+            padding-right: 1em;
         }
         .book-cover {
             order: 2;
@@ -50,7 +64,7 @@
 
             width: 300px;
             height: 400px;
-            background: rgba(255,0,0, 0.3);
+            background: rgba(255, 0, 0, 0.3);
         }
 
         .circle {
@@ -60,7 +74,7 @@
             width: 300px;
             height: 300px;
             border-radius: 50%;
-            background: rgba(126,212,255, 0.5);
+            background: rgba(126, 212, 255, 0.5);
         }
     }
 
@@ -73,7 +87,7 @@
             height: 0;
             border-left: 180px solid transparent;
             border-right: 180px solid transparent;
-            border-bottom: 360px solid rgba(126,212,255, 0.5);
+            border-bottom: 360px solid rgba(126, 212, 255, 0.5);
             transform: rotate(-5deg);
         }
 
@@ -83,7 +97,7 @@
 
             width: 350px;
             height: 450px;
-            background: rgba(255,0,0,0.5);
+            background: rgba(255, 0, 0, 0.5);
             transform: rotate(10deg);
         }
     }
@@ -96,7 +110,7 @@
             width: 350px;
             height: 350px;
             border-radius: 50%;
-            background: rgba(255,0,0,0.5);
+            background: rgba(255, 0, 0, 0.5);
         }
 
         .rect {
@@ -105,7 +119,7 @@
 
             width: 350px;
             height: 450px;
-            background: rgba(126,212,255, 0.5);
+            background: rgba(126, 212, 255, 0.5);
             transform: rotate(10deg);
         }
     }
@@ -138,7 +152,7 @@
 
                 width: 12rem;
                 height: 16rem;
-                background: rgba(255,0,0, 0.3);
+                background: rgba(255, 0, 0, 0.3);
             }
 
             .circle {
@@ -148,7 +162,7 @@
                 width: 18rem;
                 height: 18rem;
                 border-radius: 50%;
-                background: rgba(126,212,255, 0.5);
+                background: rgba(126, 212, 255, 0.5);
             }
         }
 
@@ -161,7 +175,7 @@
                 height: 0;
                 border-left: 6rem solid transparent;
                 border-right: 6rem solid transparent;
-                border-bottom: 12rem solid rgba(126,212,255, 0.5);
+                border-bottom: 12rem solid rgba(126, 212, 255, 0.5);
                 transform: rotate(-5deg);
             }
 
@@ -171,7 +185,7 @@
 
                 width: 10rem;
                 height: 15rem;
-                background: rgba(255,0,0,0.5);
+                background: rgba(255, 0, 0, 0.5);
                 transform: rotate(10deg);
             }
         }
@@ -184,7 +198,7 @@
                 width: 15rem;
                 height: 15rem;
                 border-radius: 50%;
-                background: rgba(255,0,0,0.5);
+                background: rgba(255, 0, 0, 0.5);
             }
 
             .rect {
@@ -193,7 +207,7 @@
 
                 width: 10rem;
                 height: 15rem;
-                background: rgba(126,212,255, 0.5);
+                background: rgba(126, 212, 255, 0.5);
                 transform: rotate(10deg);
             }
         }

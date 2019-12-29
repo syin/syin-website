@@ -10,7 +10,8 @@ I actually read all of these books _last year_ but I'm finally getting around to
 
 Spoiler warning for all of the books discussed.
 
-### version control - dexter palmer
+<a id="version-control"></a>
+### <a class="permalink-heading" href="#version-control">version control - dexter palmer</a>
 
 <div class="version-control art-left book-review-wrapper">
 <aside class="book-cover">
@@ -33,7 +34,8 @@ I am no arbiter of "literary" "merit" but I will say that I can't begin to artic
 </div>
 
 
-### creative selection - ken kocienda
+<a id="creative-selection"></a>
+### <a class="permalink-heading" href="#creative-selection">creative selection - ken kocienda</a>
 
 <div class="creative-selection art-right book-review-wrapper">
 <aside class="book-cover">
@@ -71,7 +73,8 @@ Finally, in a recent [ATP interview with Phil Schiller](http://atp.fm/episodes/3
 </div>
 
 
-### bad blood - john carreyrou
+<a id="bad-blood"></a>
+### <a class="permalink-heading" href="#bad-blood">bad blood - john carreyrou</a>
 
 <div class="bad-blood art-left book-review-wrapper">
 <aside class="book-cover">

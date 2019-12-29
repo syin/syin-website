@@ -7,7 +7,8 @@ categories: books
 
 I avoid writing book reviews because I often don't have well-formed opinions on books right after I finish them and think that I'll wait until I _have_ developed thoughts and ideas to write about. As the way these things go, that time never comes because who can have stable and unchanging thoughts about anything? So I've written some tentative and unorganized thoughts on these books.
 
-### How to Do Nothing -- Jenny Odell
+<a id="how-to-do-nothing"></a>
+### <a class="permalink-heading" href="#how-to-do-nothing">How to Do Nothing -- Jenny Odell</a>
 [(goodreads)](https://www.goodreads.com/book/show/42771901-how-to-do-nothing)
 
 It is difficult to form a main thought or opinion of this book because it is difficult for me to articulate what this book is even about. It is not, as the title suggests, a self-help book on social media and the attention economy.
@@ -25,7 +26,8 @@ Preemptively calling it a "peaceful project" avoids the fact that regardless of 
 
 I enjoyed reading this book and found it generally interesting, but it left me kind of unsettled and unsure of how to think and what to do next. But perhaps that's in keeping with the spirit of _How to Do Nothing_.
 
-### Bullshit Jobs -- David Graeber
+<a id="bullshit-jobs"></a>
+### <a class="permalink-heading" href="#bullshit-jobs">Bullshit Jobs -- David Graeber</a>
 [(goodreads)](https://www.goodreads.com/book/show/34466958-bullshit-jobs)
 
 I read this a while ago but [Current Affairs](https://www.currentaffairs.org/2019/08/bullshit-jobs/) recently reviewed it and now I am too.
