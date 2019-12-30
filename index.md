@@ -46,13 +46,13 @@ permalink: /
 <a href="http://link.landfood.ubc.ca/courseTree/"><img class="entry-img" src="https://raw.githubusercontent.com/justin0022/UBCHack/master/docs/screenshot-1.png" alt="Screenshot of CourseTree"></a>
 
 <div class="entry">
-    <h3 class="entry-title"><a href="https://github.com/syin/polyrhythms">polyrhythms</a></h3>
+    <h3 class="entry-title"><a href="https://polyrhythms.shirleyyin.com">polyrhythms</a></h3>
     <ul>
         <li>A simple web application for practicing polyrhythms on piano</li>
         <li><strong>Technologies used:</strong> HTML, CSS, JavaScript/jQuery</li>
     </ul>
 </div>
-<a href="https://github.com/syin/polyrhythms"><img class="entry-img" src="/images/polyrhythms.png" alt="Screenshot of polyrhythms"></a>
+<a href="https://polyrhythms.shirleyyin.com"><img class="entry-img" src="/images/polyrhythms.png" alt="Screenshot of polyrhythms"></a>
 
 ## contact
 
