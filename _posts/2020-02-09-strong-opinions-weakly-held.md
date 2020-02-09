@@ -10,7 +10,8 @@ If these book posts have a general theme, the theme for this post would be integ
 <blockquote class="long-quote">i dont think you necessarily have to boycott every evil company/product in the world but i think it’s good nay healthy to pick out a handful of things that are antithetical to your beliefs and practice abstaining from them. it’s ridiculous to frame consumerism, especially of frivolities, as something that is natural and inherent to modern life. even if there is no ethical consumption under capitalism, you don’t have to consume everything</blockquote>
 _engrave this on my tombstone ([source](https://hieronymouscock.tumblr.com/post/189092950484/i-dont-think-you-necessarily-have-to-boycott-every))_
 
-### Permanent Record -- Edward Snowden
+<a id="permanent-record"></a>
+### <a class="permalink-heading" href="#permanent-record">Permanent Record -- Edward Snowden</a>
 [(goodreads)](https://www.goodreads.com/book/show/46223297-permanent-record)
 
 My primary impression after reading _Permanent Record_ is that Snowden is a staunchly principled person. I love reading accounts of [workplace self-righteousness](https://shirleyyin.com/blog/book-reviews/#bad-blood) and the later sections of this book fall squarely into that category. I found the earlier sections of the book boring, because I was not interested in Snowden's childhood, but his own retelling and interpretation of childhood events helped contextualize him and his principles and decisions in some ways. He describes a childhood where he was enthralled with computers, but gradually realized the perils and implications of pursuing technological advancement without reservations, which is something that probably many tech workers are grappling with now that technology has an inescapable influence over society.
@@ -41,7 +42,8 @@ I didn't know a lot about Snowden or the NSA revelations prior to reading this b
 
 <p>Ultimately, saying that you don't care about privacy because you have nothing to hide is no different from saying you don't care about freedom of speech because you have nothing to say. (p. 208)</p></blockquote>
 
-### The Boy Who Could Change the World: The Writings of Aaron Swartz -- Aaron Swartz
+<a id="aaron-swartz"></a>
+### <a class="permalink-heading" href="#aaron-swartz">The Boy Who Could Change the World: The Writings of Aaron Swartz -- Aaron Swartz</a>
 [(goodreads)](https://www.goodreads.com/book/show/23258925-the-boy-who-could-change-the-world)
 
 This is a collection of blog posts by Aaron Swartz. Many of the essays were fairly interesting, but overall they felt underdeveloped, as though he's writing about a book he read about a subject, but reading the original book would have been more insightful (which is perfectly normal for a blog post). Some also seemed dated or immature (also normal considering he wrote many of them in his teens or early twenties). My favourite essay was ["School"](https://monoskop.org/media/text/swartz/#ach65). I'm less dazzled by his writing than I was when I first read him as a teenager, but I still admire the earnestness in which he lived, even though that unfortunately led to his downfall in the end. It's gauche to speculate on people's motivations for suicide, but I can empathize with the feeling that he could no longer live his life in a manner that was internally consistent with his beliefs. I keep thinking back to this quote from Henry Farrell, who wrote the foreword to the "Media" section:
