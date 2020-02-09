@@ -7,13 +7,14 @@ $medgrey: #565656;
 $darkgrey: #343434;
 $darkergrey: #222;
 $white: #fff;
-$translucent_accent: rgba(183,110,121,0.2);
+$quotebackground: #f2e4e6;
+$quotemarks: #debdc2;
 
-@import "_bookreviews";
-@import "_photopost";
+@import '_bookreviews';
+@import '_photopost';
 
 body {
-    font-family: "IBM Plex Mono", monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.5;
@@ -31,7 +32,12 @@ a:hover {
     color: $accent2;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
     color: $accent;
 
@@ -58,11 +64,11 @@ h1, h2, h3, h4, h5, h6 {
             text-decoration: none;
         }
         a:before {
-            content: "\00B7";
+            content: '\00B7';
             padding: 0.3rem;
         }
         a:first-child:before {
-            content: "";
+            content: '';
         }
     }
 }
@@ -74,7 +80,7 @@ h2 {
     word-wrap: break-word;
 
     &:before {
-        content: "# ";
+        content: '# ';
     }
 }
 
@@ -82,10 +88,9 @@ h3 {
     font-size: 2rem;
 
     &:before {
-        content: "## ";
+        content: '## ';
     }
 }
-
 
 p {
     line-height: 1.8;
@@ -93,7 +98,7 @@ p {
 
 pre {
     padding: 1em;
-    font-family: "Inconsolata", monospace;
+    font-family: 'Inconsolata', monospace;
     font-weight: 400;
     background-color: $darkgrey;
     color: $white;
@@ -103,20 +108,20 @@ pre {
 
 blockquote {
     margin: 2em 0;
-    padding: 0 0.5em;
+    padding: 0.5rem 2rem;
     font-size: 1.4em;
     position: relative;
-    border-top: 1px solid $accent;
-    border-bottom: 1px solid $accent;
+    background-color: $quotebackground;
+    z-index: -1;
 
     p:first-of-type:before {
-        color: $translucent_accent;
+        color: $quotemarks;
         font-size: 14em;
-        content: "\201C";
+        content: '\201C';
         position: absolute;
         left: -0.1em;
         top: -0.5em;
-        font-family: "Times New Roman", serif;
+        font-family: 'Times New Roman', serif;
         z-index: -100;
     }
 
@@ -155,12 +160,13 @@ section .inline-images {
     font-style: italic;
 }
 
-span.post-date, span.post-categories {
+span.post-date,
+span.post-categories {
     display: block;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
     color: $accent;
-    font-family: "Inconsolata", monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 span.post-categories {
@@ -206,8 +212,9 @@ article:last-child {
             margin-bottom: 0.5rem;
         }
 
-        nav a:before, nav a:first-child:before {
-            content: "\003e";
+        nav a:before,
+        nav a:first-child:before {
+            content: '\003e';
         }
     }
 
@@ -217,7 +224,7 @@ article:last-child {
         margin-bottom: 0;
 
         &:before {
-            content: "# ";
+            content: '# ';
         }
     }
 
