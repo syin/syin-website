@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --verbose --drafts
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+
+  nginx:
+    entrypoint: ["echo", "Service nginx disabled in dev"]

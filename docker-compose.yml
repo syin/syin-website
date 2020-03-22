@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll build
+    volumes:
+      - .:/srv/jekyll
+
+  nginx:
+    image: nginx:stable
+    ports:
+      - 8000:80
+    volumes:
+      - ./_site:/var/www/shirleyyin.com/html/
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      # TODO: find a better way to do this
+      - /etc/letsencrypt/live/shirleyyin.com/fullchain.pem:/etc/letsencrypt/live/shirleyyin.com/fullchain.pem
+      - /etc/letsencrypt/live/shirleyyin.com/privkey.pem:/etc/letsencrypt/live/shirleyyin.com/privkey.pem
+    depends_on:
+      - jekyll
