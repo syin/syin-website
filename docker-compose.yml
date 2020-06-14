@@ -14,8 +14,16 @@ services:
     volumes:
       - ./_site:/var/www/shirleyyin.com/html/
       - ./nginx/conf.d:/etc/nginx/conf.d
-      # TODO: find a better way to do this
-      - /etc/letsencrypt/live/shirleyyin.com/fullchain.pem:/etc/letsencrypt/live/shirleyyin.com/fullchain.pem
-      - /etc/letsencrypt/live/shirleyyin.com/privkey.pem:/etc/letsencrypt/live/shirleyyin.com/privkey.pem
+    environment:
+      - VIRTUAL_PORT=8000
+      - VIRTUAL_HOST=shirleyyin.com
+      - LETSENCRYPT_HOST=shirleyyin.com
+      - LETSENCRYPT_EMAIL=contact@shirleyyin.com
+    networks:
+      - nginx-proxy_nginx-proxy
     depends_on:
       - jekyll
+
+networks:
+  nginx-proxy_nginx-proxy:
+    external: true
