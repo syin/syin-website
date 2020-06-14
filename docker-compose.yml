@@ -16,8 +16,8 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d
     environment:
       - VIRTUAL_PORT=8000
-      - VIRTUAL_HOST=shirleyyin.com
-      - LETSENCRYPT_HOST=shirleyyin.com
+      - VIRTUAL_HOST=shirleyyin.com,www.shirleyyin.com
+      - LETSENCRYPT_HOST=shirleyyin.com,www.shirleyyin.com
       - LETSENCRYPT_EMAIL=contact@shirleyyin.com
     networks:
       - nginx-proxy_nginx-proxy
