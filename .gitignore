@@ -3,3 +3,4 @@ _drafts/
 .sass-cache
 .jekyll-metadata
 docker-compose.override.yml
+images/posts/drafts
