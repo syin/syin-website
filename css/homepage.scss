@@ -29,7 +29,7 @@ body {
 
 section {
   width: 80%;
-  max-width: 30rem;
+  max-width: 34rem;
   box-sizing: border-box;
   border: 2px solid $blushpink;
   padding: 3rem;
@@ -53,9 +53,6 @@ a {
 }
 
 @media (max-width: 767px) {
-  section {
-  }
-
   h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
