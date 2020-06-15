@@ -90,6 +90,7 @@ h6 {
     }
     a:first-child:before {
       content: '';
+      padding: 0;
     }
   }
 }
@@ -215,6 +216,26 @@ article:last-child {
   font-style: italic;
 }
 
+.card {
+  border: 2px solid $blushpink;
+  padding: 2rem;
+  box-shadow: 12px 12px 0 -1px $blushpink;
+  margin-bottom: 6rem;
+
+  display: flex;
+  .half {
+    flex: 0 0 50%;
+  }
+  .card-description {
+    padding-left: 1rem;
+  }
+
+  h3:before {
+    margin-left: 1rem;
+    content: '';
+  }
+}
+
 @media (max-width: 767px) {
   body {
     font-size: 1.3rem;
@@ -235,33 +256,27 @@ article:last-child {
     font-size: 1.3rem;
     margin-top: 1rem;
     margin-bottom: 0;
-
-    &:before {
-      content: '# ';
-    }
   }
 
   h3 {
     font-size: 1.2rem;
   }
-}
 
-.card {
-  border: 2px solid $blushpink;
-  padding: 2rem;
-  box-shadow: 12px 12px 0 -1px $blushpink;
-  margin-bottom: 6rem;
-
-  display: flex;
-  .half {
-    flex: 0 0 50%;
-  }
-  .card-description {
-    padding-left: 1rem;
-  }
-
-  h3:before {
-    margin-left: 1rem;
-    content: '';
+  .card {
+    flex-direction: column;
+    box-shadow: 8px 8px 0 -1px $blushpink;
+    .half {
+      flex: 0 0 100%;
+    }
+    .card-description {
+      padding-left: 0;
+    }
+    h3, h3:before {
+      margin-left: 0;
+    }
+    ul {
+      margin: 0;
+      padding-left: 0.4rem;
+    }
   }
 }
