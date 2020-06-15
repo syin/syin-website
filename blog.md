@@ -1,4 +1,4 @@
 ---
 layout: blog_feed
-permalink: /blog/
+permalink: /blog
 ---

@@ -250,3 +250,23 @@ article:last-child {
     font-size: 1.2rem;
   }
 }
+
+.card {
+  border: 2px solid $blushpink;
+  padding: 2rem;
+  box-shadow: 12px 12px 0 -1px $blushpink;
+  margin-bottom: 6rem;
+
+  display: flex;
+  .half {
+    flex: 0 0 50%;
+  }
+  .card-description {
+    padding-left: 1rem;
+  }
+
+  h3:before {
+    margin-left: 1rem;
+    content: '';
+  }
+}
