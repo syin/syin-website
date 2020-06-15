@@ -28,7 +28,9 @@ body {
 }
 
 section {
-  width: 30rem;
+  width: 80%;
+  max-width: 30rem;
+  box-sizing: border-box;
   border: 2px solid $blushpink;
   padding: 3rem;
   box-shadow: 12px 12px 0 -1px $blushpink;
@@ -48,6 +50,16 @@ ul {
 
 a {
   color: $blushpink;
+}
+
+@media (max-width: 767px) {
+  section {
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
 }
 
 /* css parallax stars adapted from https://codepen.io/saransh/pen/BKJun/ */
