@@ -53,11 +53,25 @@ a {
 }
 
 @media (max-width: 767px) {
+
   h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  section {
+    font-size: 1.2rem;
+    padding: 2rem;
+    letter-spacing: normal;
+    box-shadow: 8px 8px 0 -1px $blushpink;
+  }
+
+  ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }
+
 
 /* css parallax stars adapted from https://codepen.io/saransh/pen/BKJun/ */
 
