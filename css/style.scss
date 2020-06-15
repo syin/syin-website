@@ -1,35 +1,48 @@
 ---
 ---
 
-$accent: #8b3e4e;
-$accent2: scale-color($accent, $lightness: 25%, $saturation: -40%);
+$darkblue: #171a28;
+$blushpink: #ebc3c3;
+$pink: scale-color(#8b3e4e, $lightness: 25%, $saturation: -40%);
+
 $medgrey: #565656;
 $darkgrey: #343434;
 $darkergrey: #222;
 $white: #fff;
-$quotebackground: #f2e4e6;
-$quotemarks: #debdc2;
+$offwhite: darken(#fff, 10%);
+$quotebackground: scale-color($darkblue, $lightness: 15%, $saturation: -40%);
+$quotemarks: #4d1c2e;
+
+$serif: 'Spectral', serif;
+$mono: 'Space Mono', monospace;
 
 @import '_bookreviews';
 @import '_photopost';
 
 body {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.5;
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
+  background-color: $darkblue;
+  color: $offwhite;
+
+  font-family: $serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 a {
-    color: $accent;
-    text-decoration: underline;
+  color: $blushpink;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: $accent2;
+  color: $pink;
+}
+
+strong {
+  font-weight: 600;
 }
 
 h1,
@@ -38,197 +51,222 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
-    color: $accent;
+  font-family: $mono;
+  font-weight: 400;
+  color: $blushpink;
 
-    a {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
 
-    h1 {
-        font-weight: 400;
-        font-size: 4rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
+  h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
-    nav {
-        a {
-            text-decoration: none;
-        }
-        a:before {
-            content: '\00B7';
-            padding: 0.3rem;
-        }
-        a:first-child:before {
-            content: '';
-        }
+    a:hover {
+      color: $blushpink;
     }
+  }
+
+  nav {
+    font-family: $mono;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      color: $blushpink;
+    }
+    a:before {
+      content: '\00B7';
+      padding: 0.3rem;
+    }
+    a:first-child:before {
+      content: '';
+    }
+  }
 }
 
 h2 {
-    font-size: 2.5rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-    word-wrap: break-word;
-
-    &:before {
-        content: '# ';
-    }
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  word-wrap: break-word;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
+  margin: 1rem 0;
 
-    &:before {
-        content: '## ';
-    }
+  &:before {
+    content: '# ';
+  }
 }
 
 p {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 pre {
-    padding: 1em;
-    font-family: 'Inconsolata', monospace;
-    font-weight: 400;
-    background-color: $darkgrey;
-    color: $white;
-    box-shadow: inset 0px 0px 20px 10px $darkergrey;
-    overflow-x: scroll;
+  padding: 1em;
+  font-family: $mono;
+  font-weight: 400;
+  background-color: $darkgrey;
+  color: $white;
+  box-shadow: inset 0px 0px 20px 10px $darkergrey;
+  overflow-x: scroll;
 }
 
 blockquote {
-    margin: 2em 0;
-    padding: 0.5rem 2rem;
-    font-size: 1.4em;
-    position: relative;
-    background-color: $quotebackground;
-    z-index: -1;
+  margin: 2em 0;
+  padding: 0.5rem 2rem;
+  font-size: 1.4em;
+  position: relative;
+  background-color: $quotebackground;
+  z-index: -1;
 
-    p:first-of-type:before {
-        color: $quotemarks;
-        font-size: 14em;
-        content: '\201C';
-        position: absolute;
-        left: -0.1em;
-        top: -0.5em;
-        font-family: 'Times New Roman', serif;
-        z-index: -100;
-    }
+  p:first-of-type:before {
+    color: $quotemarks;
+    font-size: 14em;
+    content: '\201C';
+    position: absolute;
+    left: -0.1em;
+    top: -0.65em;
+    font-family: "Times New Roman", serif;
+    z-index: -100;
+  }
 
-    &.long-quote {
-        font-size: 1em;
-    }
+  &.long-quote {
+    font-size: 1em;
+  }
 }
 
 section {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 section img {
-    width: 100%;
+  width: 100%;
 }
 
 section img.real-size {
-    width: auto;
-    display: block;
-    margin: 0 auto;
+  width: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 section .inline-images {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-    img {
-        margin: initial;
-    }
+  img {
+    margin: initial;
+  }
 }
 
 .caption {
-    display: block;
-    text-align: center;
-    font-style: italic;
+  display: block;
+  text-align: center;
+  font-style: italic;
 }
 
 span.post-date,
 span.post-categories {
-    display: block;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
-    color: $accent;
-    font-family: 'Inconsolata', monospace;
+  display: block;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  color: $blushpink;
+  font-family: $mono;
 }
 
 span.post-categories {
-    font-style: italic;
+  font-style: italic;
 }
 
 article {
-    border-bottom: 1px solid $accent;
-    margin-bottom: 1rem;
+  border-bottom: 1px solid $pink;
+  margin-bottom: 1rem;
 }
 
 article:last-child {
-    border: 0;
-    margin-bottom: 4rem;
+  border: 0;
+  margin-bottom: 4rem;
 }
 
 .blogfeed {
-    list-style: none;
-    margin: 1rem 0;
-    padding: 0;
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
 }
 
 .blogfeed--title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .blogfeed--date {
-    font-style: italic;
+  font-style: italic;
 }
 
 @media (max-width: 767px) {
-    body {
-        font-size: 1.1rem;
+  body {
+    font-size: 1.3rem;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
 
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
+/*    nav a:before,
+    nav a:first-child:before {
+      content: '\003e';
+    }*/
+  }
 
-        h1 {
-            font-size: 2.5rem;
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
+  h2 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
 
-        nav a:before,
-        nav a:first-child:before {
-            content: '\003e';
-        }
+    &:before {
+      content: '# ';
     }
+  }
 
-    h2 {
-        font-size: 1.3rem;
-        margin-top: 1rem;
-        margin-bottom: 0;
+  h3 {
+    font-size: 1.2rem;
+  }
+}
 
-        &:before {
-            content: '# ';
-        }
-    }
+.card {
+  border: 2px solid $blushpink;
+  padding: 2rem;
+  box-shadow: 12px 12px 0 -1px $blushpink;
+  margin-bottom: 6rem;
 
-    h3 {
-        font-size: 1.2rem;
-    }
+  display: flex;
+  .half {
+    flex: 0 0 50%;
+  }
+  .card-description {
+    padding-left: 1rem;
+  }
+
+  h3:before {
+    margin-left: 1rem;
+    content: '';
+  }
 }

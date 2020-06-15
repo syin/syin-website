@@ -15,8 +15,8 @@ Spoiler warning for all of the books discussed.
 
 <div class="version-control art-left book-review-wrapper">
 <aside class="book-cover">
-    <div class="rect"></div>
-    <div class="circle"></div>
+    <!-- <div class="rect"></div> -->
+    <!-- <div class="circle"></div> -->
     <img class="cover-art" src="/images/posts/2019-03-25-book-reviews/version-control.jpg" alt="Version Control book cover">
 </aside>
     
@@ -39,8 +39,8 @@ I am no arbiter of "literary" "merit" but I will say that I can't begin to artic
 
 <div class="creative-selection art-right book-review-wrapper">
 <aside class="book-cover">
-    <div class="triangle"></div>
-    <div class="rect"></div>
+    <!-- <div class="triangle"></div> -->
+    <!-- <div class="rect"></div> -->
     <img class="cover-art" src="/images/posts/2019-03-25-book-reviews/creative-selection.jpg" alt="Creative Selection book cover">
 </aside>
     
@@ -78,8 +78,8 @@ Finally, in a recent [ATP interview with Phil Schiller](http://atp.fm/episodes/3
 
 <div class="bad-blood art-left book-review-wrapper">
 <aside class="book-cover">
-    <div class="circle"></div>
-    <div class="rect"></div>
+    <!-- <div class="circle"></div> -->
+    <!-- <div class="rect"></div> -->
     <img class="cover-art" src="/images/posts/2019-03-25-book-reviews/bad-blood.jpg" alt="Bad Blood book cover">
 </aside>
     
