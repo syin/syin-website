@@ -78,6 +78,9 @@ h6 {
 
   nav {
     font-family: $mono;
+    display: flex;
+    flex-wrap: wrap;
+
     a {
       text-decoration: none;
     }
@@ -277,6 +280,17 @@ article:last-child {
     ul {
       margin: 0;
       padding-left: 0.4rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .header nav {
+    flex-direction: column;
+    a:first-child:before {
+      content: '\00B7';
+      padding: 0.3rem;
     }
   }
 }
