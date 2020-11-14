@@ -2,7 +2,7 @@ version: "3"
 
 services:
   jekyll:
-    image: jekyll/jekyll:latest
+    image: jekyll/jekyll:3.6
     command: jekyll serve --watch --verbose --drafts
     volumes:
       - .:/srv/jekyll
