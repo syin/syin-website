@@ -5,10 +5,22 @@ permalink: /projects
 
 # projects
 
+<div class="card">
+    <div class="half">
+        <a href="https://libwherey.org"><img class="entry-img" src="/images/libwherey.png" alt="Screenshot of lib(where)y"></a>
+    </div>
+    <div class="half card-description">
+        <h3 class="entry-title"><a href="https://libwherey.org">lib(where)y</a></h3>
+        <ul>
+            <li>A map of little free libraries</li>
+            <li><strong>Technologies used:</strong> Python, Django, PostGIS, Riot.js</li>
+        </ul>
+    </div>
+</div>
 
 <div class="card">
     <div class="half">
-        <a href="http://cowboyz.shirleyyin.com"><img class="entry-img" src="/images/cowboyz.png" alt="Screenshot of cowboyz"></a>
+        <a href="https://cowboyz.shirleyyin.com"><img class="entry-img" src="/images/cowboyz.png" alt="Screenshot of cowboyz"></a>
     </div>
     <div class="half card-description">
         <h3 class="entry-title"><a href="https://cowboyz.shirleyyin.com">cowboyz</a></h3>
@@ -21,10 +33,10 @@ permalink: /projects
 
 <div class="card">
     <div class="half">
-        <a href="http://bcfires.shirleyyin.com"><img class="entry-img" src="/images/bcfires.png" alt="Screenshot of bcfires"></a>
+        <a href="https://bcfires.shirleyyin.com"><img class="entry-img" src="/images/bcfires.png" alt="Screenshot of bcfires"></a>
     </div>
     <div class="half card-description">
-        <h3 class="entry-title"><a href="http://bcfires.shirleyyin.com">BC Fires</a></h3>
+        <h3 class="entry-title"><a href="https://bcfires.shirleyyin.com">BC Fires</a></h3>
         <ul>
             <li>Created with <a href="https://github.com/justin0022">Justin Lee</a></li>
             <li>Interactive visualization of BC wildfires using the <a href="https://catalogue.data.gov.bc.ca/dataset/fire-perimeters-historical">Fire Perimeters</a> dataset</li>
